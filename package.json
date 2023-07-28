@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/includeDaniel/temperature-conversor/issues"
   },
-  "homepage": "https://github.com/includeDaniel/temperature-conversor#readme"
+  "homepage": "https://github.com/includeDaniel/temperature-conversor#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
 }
