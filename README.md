@@ -4,6 +4,7 @@ This is a simple JavaScript function that takes in three parameters: initialMeas
 
 Usage
 To use this temperature converter function, you can require it in your JavaScript project like this:
+
 ```
     const temperatureConverter = require('./temperatureConverter');
 
@@ -11,6 +12,7 @@ To use this temperature converter function, you can require it in your JavaScrip
     const celsius = temperatureConverter("F", "C", 32);
     console.log(celsius); // Output: 0
 ```
+
 Parameters
 initialMeasureUnit: This is the initial unit of temperature measurement. It can be "F" for Fahrenheit, "C" for Celsius, or "K" for Kelvin.
 finalMeasureUnit: This is the final unit of temperature measurement. It can be "F" for Fahrenheit, "C" for Celsius, or "K" for Kelvin.
@@ -25,6 +27,7 @@ Fahrenheit to Celsius
 Celsius to Fahrenheit
 Kelvin to Celsius
 Celsius to Kelvin
+
 ```
     // Convert 68 degrees Fahrenheit to Celsius
     const celsius = temperatureConverter("F", "C", 68);
