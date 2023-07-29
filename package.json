@@ -1,7 +1,7 @@
 {
-  "name": "temperature-conversor",
-  "version": "1.0.0",
-  "description": "a package who make temperature conversion",
+  "name": "@includedaniel/temperature-conversor",
+  "version": "1.0.1",
+  "description": "📦 package who make temperature conversion",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
