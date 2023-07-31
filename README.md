@@ -3,6 +3,28 @@
 [![npm version](https://img.shields.io/npm/v/@includedaniel/temperature-conversor.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/temperature-conversor)
 [![codecov](https://codecov.io/gh/includeDaniel/temperature-conversor/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/temperature-conversor)
 
+```
+npm i @includedaniel/temperature-conversor
+```
+
+```
+yarn add @includedaniel/temperature-conversor
+```
+
+Usage:
+
+```js
+//module
+import { temperatureConversor } from "@includedaniel/temperature-conversor";
+console.log(temperatureConversor("C", "F", 30)) //86 ;
+```
+
+```js
+//commomjs
+const {temperatureConversor,} = require("@includedaniel/temperature-conversor");
+console.log(temperatureConversor("C", "F", 30)) //86 ;
+```
+
 Running tests:
 
 -   Run `yarn test` to execute the tests and export the reports to `/coverage` folder
