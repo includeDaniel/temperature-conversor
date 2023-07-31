@@ -3,48 +3,21 @@
 [![npm version](https://img.shields.io/npm/v/@includedaniel/temperature-conversor.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/temperature-conversor)
 [![codecov](https://codecov.io/gh/includeDaniel/temperature-conversor/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/temperature-conversor)
 
-This is a simple JavaScript function that takes in three parameters: initialMeasureUnit, finalMeasureUnit, and number. It converts a temperature value from one unit to another, based on the provided input.
+Running tests:
 
-Usage
-To use this temperature converter function, you can require it in your JavaScript project like this:
+-   Run `yarn test` to execute the tests and export the reports to `/coverage` folder
 
-```
-    const temperatureConverter = require('./temperatureConverter');
+Running lint:
 
-    // Convert 32 degrees Fahrenheit to Celsius
-    const celsius = temperatureConverter("F", "C", 32);
-    console.log(celsius); // Output: 0
-```
+-  Run `yarn lint` to execute the eslint to fix and find problems in your code
+-  want to know more about eslint commands? [Follow the link](https://eslint.org/docs/latest/use/command-line-interface)
 
-Parameters
-initialMeasureUnit: This is the initial unit of temperature measurement. It can be "F" for Fahrenheit, "C" for Celsius, or "K" for Kelvin.
-finalMeasureUnit: This is the final unit of temperature measurement. It can be "F" for Fahrenheit, "C" for Celsius, or "K" for Kelvin.
-number: This is the temperature value to be converted.
-Return Value
-The function returns the converted temperature value based on the provided input parameters.
+Running prettier:
 
-Supported Conversions
-This function supports the following temperature conversions:
+-  Run `yarn format` to format the code according to established standards
+-  Run `yarn type-check` to check the types in your code
 
-Fahrenheit to Celsius
-Celsius to Fahrenheit
-Kelvin to Celsius
-Celsius to Kelvin
+Running rollup:
 
-```
-    // Convert 68 degrees Fahrenheit to Celsius
-    const celsius = temperatureConverter("F", "C", 68);
-    console.log(celsius); // Output: 20
-
-    // Convert 20 degrees Celsius to Fahrenheit
-    const fahrenheit = temperatureConverter("C", "F", 20);
-    console.log(fahrenheit); // Output: 68
-
-    // Convert 293.15 Kelvin to Celsius
-    const celsius = temperatureConverter("K", "C", 293.15);
-    console.log(celsius); // Output: 20
-
-    // Convert 20 degrees Celsius to Kelvin
-    const kelvin = temperatureConverter("C", "K", 20);
-    console.log(kelvin); // Output: 293.15
-```
+-  Run `yarn build` to execute the rollup
+-  [Link for commands line flags of rollup](https://rollupjs.org/command-line-interface/#command-line-flags)
