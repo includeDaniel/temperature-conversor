@@ -1,4 +1,6 @@
 # Temperature-Conversor
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/includeDaniel/temperature-conversor/blob/main/LICENSE)
 [![main](https://github.com/includeDaniel/fibonacci/actions/workflows/main.yml/badge.svg)](https://github.com/includeDaniel/temperature-conversor/actions/workflows/main.yml)
 [![npm version](https://img.shields.io/npm/v/@includedaniel/temperature-conversor.svg?style=flat)](https://www.npmjs.com/package/@includedaniel/temperature-conversor)
 [![codecov](https://codecov.io/gh/includeDaniel/temperature-conversor/branch/main/graph/badge.svg?token=JZWXY20HCS)](https://codecov.io/gh/includeDaniel/temperature-conversor)
