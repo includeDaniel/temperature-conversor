@@ -15,14 +15,14 @@ Usage:
 
 ```js
 //module
-import { temperatureConversor } from "@includedaniel/temperature-conversor";
-console.log(temperatureConversor("C", "F", 30)) //86 ;
+import { temperatureConversor } from "@includedaniel/temperature-conversor"
+console.log(temperatureConversor("C", "F", 30)) // 86
 ```
 
 ```js
 //commomjs
-const {temperatureConversor,} = require("@includedaniel/temperature-conversor");
-console.log(temperatureConversor("C", "F", 30)) //86 ;
+const {temperatureConversor,} = require("@includedaniel/temperature-conversor")
+console.log(temperatureConversor("C", "F", 30)) // 86
 ```
 
 Running tests:
